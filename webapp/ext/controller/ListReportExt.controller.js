@@ -42,7 +42,7 @@ sap.ui.define([
         return;
       }
 
-      var itemIsExist = selectedItems.find(q => q.belnr !== "");
+      var itemIsExist = selectedItems.find(q => q.belnr !== ""); 
       if (itemIsExist) {
         MessageToast.show(this.getResourceBundle().getText("Daha önce muhasebeleştirilmiş kayıtlar mevcut."));
         return;
